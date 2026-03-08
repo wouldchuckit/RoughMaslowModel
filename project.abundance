@@ -650,8 +650,218 @@
         },
         {
           "name": "zDist",
-          "ioValue": 166,
-          "currentEquation": "166"
+          "ioValue": 166
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.5215749730312838,
+      "y": 0.558891454965358,
+      "uniqueID": "id-4216",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 45
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.5194174757281553,
+      "y": 0.6812933025404158,
+      "uniqueID": "id-4223",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": -45
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.5188781014023732,
+      "y": 0.7990762124711317,
+      "uniqueID": "id-4230",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 135
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.5194174757281553,
+      "y": 0.9145496535796767,
+      "uniqueID": "id-4237",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": -135
+        }
+      ]
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.9433656957928802,
+      "y": 0.6882217090069285,
+      "uniqueID": "id-4244",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "Rough Model of Maslow (not perfect measurements) For planning frames and builds",
+      "global": true
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.6779935275080906,
+      "y": 0.8775981524249422,
+      "uniqueID": "id-4246",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 30
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.7394822006472492,
+      "y": 0.8822170900692841,
+      "uniqueID": "id-4249",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 90
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.8300970873786407,
+      "y": 0.648960739030023,
+      "uniqueID": "id-4253",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 100
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.8338727076591155,
+      "y": 0.7806004618937644,
+      "uniqueID": "id-4259",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.8322545846817693,
+      "y": 0.8960739030023095,
+      "uniqueID": "id-4265",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
         }
       ]
     },
@@ -2808,9 +3018,9 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.5215749730312838,
-      "y": 0.558891454965358,
-      "uniqueID": "id-4216",
+      "x": 0.8451995685005393,
+      "y": 0.9907621247113165,
+      "uniqueID": "id-4719",
       "ioValues": [
         {
           "name": "geometry",
@@ -2826,100 +3036,9 @@
         },
         {
           "name": "z-axis degrees",
-          "ioValue": 45,
-          "currentEquation": "45"
+          "ioValue": 0
         }
       ]
-    },
-    {
-      "atomType": "Rotate",
-      "x": 0.5194174757281553,
-      "y": 0.6812933025404158,
-      "uniqueID": "id-4223",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "x-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "y-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": -45,
-          "currentEquation": "-45"
-        }
-      ]
-    },
-    {
-      "atomType": "Rotate",
-      "x": 0.5188781014023732,
-      "y": 0.7990762124711317,
-      "uniqueID": "id-4230",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "x-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "y-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": 135,
-          "currentEquation": "135"
-        }
-      ]
-    },
-    {
-      "atomType": "Rotate",
-      "x": 0.5194174757281553,
-      "y": 0.9145496535796767,
-      "uniqueID": "id-4237",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "x-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "y-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": -135,
-          "currentEquation": "-135"
-        }
-      ]
-    },
-    {
-      "atomType": "Readme",
-      "x": 0.9433656957928802,
-      "y": 0.6882217090069285,
-      "uniqueID": "id-4244",
-      "name": "README",
-      "ioValues": [
-        {
-          "name": "value",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "readMeText": "Rough Model of Maslow (not perfect measurements) For planning frames and builds",
-      "global": true
     }
   ],
   "allConnectors": [
@@ -3089,6 +3208,51 @@
       "ap2ID": "id-4237"
     },
     {
+      "ap2Name": "Shape 12",
+      "ap1ID": "id-4216",
+      "ap2ID": "id-311"
+    },
+    {
+      "ap2Name": "Shape 13",
+      "ap1ID": "id-4223",
+      "ap2ID": "id-311"
+    },
+    {
+      "ap2Name": "Shape 14",
+      "ap1ID": "id-4230",
+      "ap2ID": "id-311"
+    },
+    {
+      "ap2Name": "Shape 15",
+      "ap1ID": "id-4237",
+      "ap2ID": "id-311"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-4246",
+      "ap2ID": "id-4249"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-4249",
+      "ap2ID": "id-4253"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-4253",
+      "ap2ID": "id-4259"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-4253",
+      "ap2ID": "id-4265"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-4253",
+      "ap2ID": "id-4719"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-112",
       "ap2ID": "id-299"
@@ -3142,26 +3306,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-4085",
       "ap2ID": "id-2933"
-    },
-    {
-      "ap2Name": "Shape 12",
-      "ap1ID": "id-4216",
-      "ap2ID": "id-311"
-    },
-    {
-      "ap2Name": "Shape 13",
-      "ap1ID": "id-4223",
-      "ap2ID": "id-311"
-    },
-    {
-      "ap2Name": "Shape 14",
-      "ap1ID": "id-4230",
-      "ap2ID": "id-311"
-    },
-    {
-      "ap2Name": "Shape 15",
-      "ap1ID": "id-4237",
-      "ap2ID": "id-311"
     }
   ],
   "fileTypeVersion": 1,
