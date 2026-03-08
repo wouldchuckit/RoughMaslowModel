@@ -340,7 +340,8 @@
         },
         {
           "name": "zDist",
-          "ioValue": 110
+          "ioValue": 90,
+          "currentEquation": "90"
         }
       ]
     },
@@ -364,7 +365,8 @@
         },
         {
           "name": "zDist",
-          "ioValue": 210
+          "ioValue": 190,
+          "currentEquation": "190"
         }
       ]
     },
@@ -408,6 +410,10 @@
         },
         {
           "name": "Shape 10",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 11",
           "ioValue": null
         }
       ]
@@ -1472,8 +1478,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.7427184466019416,
-      "y": 0.21709006928406466,
+      "x": 0.7330097087378641,
+      "y": 0.17782909930715934,
       "uniqueID": "id-2422",
       "name": "RouterRough",
       "topLevel": false,
@@ -1730,6 +1736,31 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Move",
+      "x": 0.7869471413160734,
+      "y": 0.20785219399538107,
+      "uniqueID": "id-2470",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 90,
+          "currentEquation": "90"
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -1907,6 +1938,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-252",
       "ap2ID": "id-281"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-2422",
+      "ap2ID": "id-2470"
+    },
+    {
+      "ap2Name": "Shape 11",
+      "ap1ID": "id-2470",
+      "ap2ID": "id-311"
     }
   ],
   "fileTypeVersion": 1,
